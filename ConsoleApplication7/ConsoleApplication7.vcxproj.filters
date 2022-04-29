@@ -1,22 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Исходные файлы">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Core">
+      <UniqueIdentifier>{0d8709a7-2343-422b-b90d-fe8821d78cf5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="main">
+      <UniqueIdentifier>{28d874e1-d623-4408-902b-62bc0f938234}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы ресурсов">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="UI">
+      <UniqueIdentifier>{bf12cc69-29f1-4fbc-bcee-3b610bfce0f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Ent">
+      <UniqueIdentifier>{0e578ba2-8990-44d9-be82-f4f841ca82aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Lib">
+      <UniqueIdentifier>{e739be04-fb74-415a-9946-676ff9309880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Model">
+      <UniqueIdentifier>{58626cb6-bd4e-4a6d-a5b4-5b18d2f308aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Ent\steam">
+      <UniqueIdentifier>{a75e03c7-fc01-4f37-bd1b-78badee927f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Menu">
+      <UniqueIdentifier>{dfa81122-4e71-4cdd-80b2-91d9c970cf81}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ConsoleApplication7.cpp">
-      <Filter>Исходные файлы</Filter>
+    <ClCompile Include="Core\Ent\steam\steam.cpp">
+      <Filter>Core\Ent\steam</Filter>
     </ClCompile>
+    <ClCompile Include="main\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\Ent\steam\steam.h">
+      <Filter>Core\Ent\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Lib\Lib.h">
+      <Filter>Core\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Menu\Menu.h">
+      <Filter>UI\Menu</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
